@@ -1,0 +1,45 @@
+.fav-items {
+  padding-inline: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fav-item {
+  max-width: 600px;
+}
+
+.item-card {
+  display: flex;
+  background-color: RGB(146, 168, 209);
+
+  border: 5px solid RGB(146, 100, 255);
+  border-radius: 4px;
+  padding: 4px;
+  gap: 10px;
+}
+
+.item-image {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  /* background-image: url("https://m.media-amazon.com/images/M/MV5BYzBjZTNkMzQtZmNkOC00Yzk0LTljMjktZjk3YWVlZjY3NTk2XkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_SX300.jpg"); */
+  background-size: cover;
+  background-position: center;
+}
+
+.item-det {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 10px;
+  /* column-gap: 40px; */
+}
+
+.det-1 {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  justify-content: space-between;
+}
